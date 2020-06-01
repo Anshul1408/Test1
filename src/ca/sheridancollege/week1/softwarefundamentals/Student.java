@@ -12,6 +12,26 @@ package ca.sheridancollege.week1.softwarefundamentals;
 public class Student {
     
     private String name;
+    private String Numofhours;
+
+    /**
+     * Get the value of numHours
+     *
+     * @return the value of numHours
+     */
+    public String getNumHours() {
+        return Numofhours;
+    }
+
+    /**
+     * Set the value of Numofhours
+     *
+     * @param Numofhours new value of Numofhours
+     */
+    public void setNumofhours(String Numofhours) {
+        this.Numofhours = Numofhours;
+    }
+
 
     /**
      * Get the value of name
