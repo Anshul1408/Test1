@@ -12,24 +12,24 @@ package ca.sheridancollege.week1.softwarefundamentals;
 public class Student {
     
     private String name;
-    private String Numofhours;
+    private String NumHours;
 
     /**
-     * Get the value of numHours
+     * Get the value of NumHours
      *
-     * @return the value of numHours
+     * @return the value of NumHours
      */
     public String getNumHours() {
-        return Numofhours;
+        return NumHours;
     }
 
     /**
-     * Set the value of Numofhours
+     * Set the value of NumHours
      *
-     * @param Numofhours new value of Numofhours
+     * @param NumHours new value of NumHours
      */
-    public void setNumofhours(String Numofhours) {
-        this.Numofhours = Numofhours;
+    public void setNumHours(String NumHours) {
+        this.NumHours = NumHours;
     }
 
 
